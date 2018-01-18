@@ -44,14 +44,10 @@
                             $("#temp").html(temperature + " " + currentTemp);
                             $("button").html("°F");
                         }
-                      }); 
-                      
-                      
-                      
-                      
-                  }
-                });
+                    });  
+                }
             });
-        }
-    });
+        });
+    }
+});
 })(jQuery);
